@@ -367,7 +367,6 @@ namespace StudentManagementSystem
                 // 4. 显示学生成绩统计
                 Console.WriteLine("\n4. 学生成绩统计:");
                 // TODO: 遍历所有学生，显示其成绩、平均分和等级
-                Console.WriteLine("\n4. 学生成绩统计:");
                 foreach (var student in studentManager.GetAll())
                 {
                     Console.WriteLine($"{student.Name} 的成绩 :");
