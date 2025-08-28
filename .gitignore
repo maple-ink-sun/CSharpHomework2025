@@ -1,0 +1,8 @@
+# 忽略 Visual Studio 配置文件
+.vs/
+*.suo
+*.user
+
+# 忽略编译输出目录
+obj/
+bin/
